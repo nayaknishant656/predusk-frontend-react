@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5001/api/profiles',
+    baseURL: 'https://predusk-backend-mongodb-express-rea-eta.vercel.app/api/profiles',
 });
 
 // GET /api/profiles
