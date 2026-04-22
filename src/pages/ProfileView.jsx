@@ -44,7 +44,7 @@ const ProfileView = () => {
                 </div>
                 <div>
                     <h4>Education</h4>
-                    {profile.education}
+                    <h5>{profile.education ? profile.education : "none"}</h5>
                 </div>
             </div>
             <h2>Projects</h2>
