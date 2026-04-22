@@ -42,17 +42,11 @@ const ProfileView = () => {
                         ))}
                     </div>
                 </div>
-
                 <div>
                     <h4>Education</h4>
-                    {profile.education?.map((edu, idx) => (
-                        <div key={idx} style={{ marginTop: '0.5rem', color: 'var(--text-muted)' }}>
-                            <strong>{edu.institution}</strong> - {edu.degree} ({edu.year})
-                        </div>
-                    ))}
+                    {profile.education}
                 </div>
             </div>
-
             <h2>Projects</h2>
             <div className="grid">
                 {profile.projects?.map((project) => (
