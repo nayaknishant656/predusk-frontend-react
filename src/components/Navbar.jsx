@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <header>
-            <div className="logo">PreDusk</div>
+            <div className="logo">TalentBridge</div>
             <nav>
                 <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Profiles</NavLink>
                 <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink>
